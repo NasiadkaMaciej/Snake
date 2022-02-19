@@ -32,6 +32,5 @@ g++ main.cpp -o Snake.exe
 You need SFML installed do build this game
 
 ## To-Do
-* [ ] Biting yourself cuts your snake in bitten place
 * [ ] Displaying points and speed
 * [ ] Better graphics
