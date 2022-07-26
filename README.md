@@ -11,9 +11,9 @@
 ![Alt text](https://maciej.ml/projects/Snake/Snake.png)
 
 Snake clone made in C++ with SFML.   
-It's written rather poorly by enthusiast teenager.   
+Coolest feature of this simple game is generating playing board to fill whole screen.
 
-Eat apples and make your snake longer. But be careful not to bite yourself.   
+Eat apples and make your snake longer. Be careful not to bite yourself.   
 Have a nice game!   
 
 Arrows/WASD - moving   
@@ -21,13 +21,8 @@ Q - slow down
 E - speed up   
 
 ## Building
-For Linux
 ````shell
 g++ main.cpp -o Snake -lsfml-graphics -lsfml-window -lsfml-system
-````
-For Windows (Probably, I haven't tried yet)
-````shell
-g++ main.cpp -o Snake.exe
 ````
 You need SFML installed do build this game
 

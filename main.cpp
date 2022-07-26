@@ -10,7 +10,7 @@ sf::VideoMode desktopMode = sf::VideoMode::getDesktopMode();
 int blockSize=32;
 int N=desktopMode.width/blockSize, M=desktopMode.height/blockSize;
 
-int dir=right, length=40, speed=10;
+int dir=right, length=4, speed=10;
 struct Snake{
 	int x,y;
 }snakeBlock[100];
